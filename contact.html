@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <title>Contact Us - Coffee Shop</title>
+</head>
+<body class="text-white bg-gray-900 font-poppins">
+
+    <!--Navbar-->
+    <div class="mx-auto bg-zinc-900">
+        <nav class="flex items-center justify-center py-4">
+            <ul class="flex gap-8 text-lg font-bold text-white text-3">
+                <li py-6 mx-3 md:py-0>
+                    <a href="index.html" class="text-white hover:text-neutral-600 hover:underline">Home</a>
+                </li>
+                <li py-6 mx-3 md:py-0>
+                    <a href="menu.html" class="text-white hover:text-neutral-600 hover:underline">Menu</a>
+                </li>
+                <li py-6 mx-3 md:py-0>
+                    <a href="About.html" class="text-white hover:text-neutral-600 hover:underline">About</a>
+                </li>
+                <li py-6 mx-3 md:py-0>
+                    <a href="contact.html" class="text-white hover:text-neutral-600 hover:underline">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!--Navbar End-->
+
+    <!-- Hero Section -->
+    <section class="bg-zinc-900 bg-cover bg-center h-[420px] flex flex-col items-center justify-center">
+        <h1 class="text-5xl font-bold text-white shadow-lg">Contact Us</h1>
+        <p class="mt-2 text-lg text-gray-300">We would love to hear from you!</p>
+    </section>
+
+    <!-- Contact Form -->
+    <div class="container px-6 mx-auto my-12">
+        <div class="p-8 mx-auto bg-gray-800 rounded-lg shadow-lg md:p-12 lg:w-2/3">
+            <h2 class="mb-6 text-3xl font-semibold text-center">Get in Touch</h2>
+            <form action="#" method="POST" class="space-y-6">
+                <!-- Name Field -->
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-300">Your Name</label>
+                    <input type="text" id="name" name="name" required
+                        class="w-full p-3 mt-1 text-white bg-gray-700 rounded-lg focus:ring-2 focus:ring-neutral-500 focus:outline-none"
+                        placeholder="Enter your full name">
+                </div>
+                <!-- Email Field -->
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-300">Email Address</label>
+                    <input type="email" id="email" name="email" required
+                        class="w-full p-3 mt-1 text-white bg-gray-700 rounded-lg focus:ring-2 focus:ring-neutral-500 focus:outline-none"
+                        placeholder="Enter your email address">
+                </div>
+                <!-- Message Field -->
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-300">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required
+                        class="w-full p-3 mt-1 text-white bg-gray-700 rounded-lg focus:ring-2 focus:ring-neutral-500 focus:outline-none"
+                        placeholder="Type your message here"></textarea>
+                </div>
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button type="submit"
+                        class="px-6 py-2 font-medium text-white duration-300 transform bg-gray-600 rounded-lg shadow-lg hover:bg-blue-200 hover:scale-105 hover:text-gray-900">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-zinc-900">
+        <div class="container px-6 mx-auto">
+            <div class="flex flex-col items-center justify-between md:flex-row">
+                <p class="text-sm text-gray-400">
+                    &copy; 2024 Coffee Shop. All rights reserved.
+                </p>
+                <ul class="flex mt-4 space-x-4 text-sm text-gray-400 md:mt-0">
+                    <li><a href="index.html" class="hover:underline">Home</a></li>
+                    <li><a href="menu.html" class="hover:underline">Menu</a></li>
+                    <li><a href="contact.html" class="hover:underline">Contact Us</a></li>
+                    <li><a href="About.html" class="hover:underline">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
